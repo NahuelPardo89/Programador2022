@@ -7,9 +7,9 @@
 
 # Sintaxis de escritura y formato básicos para enriquecer el archivo Conceptos y en comentarios. 
 
-## ENCABEZADOS
+### ENCABEZADOS
  -Para crear un encabezado, agrega uno a seis símbolos # antes del encabezado del texto. La cantidad de # que utilices determinará el tamaño del encabezado.
-## ESTILO DE TEXTO
+### ESTILO DE TEXTO
  -Puedes indicar un énfasis con texto en negritas, itálicas, tachado en los campos de comentario y archivos .md.
 
  Negrita	** ** o __ __	Command+B (Mac) o Ctrl+B (Windows/Linux)	
