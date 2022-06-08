@@ -6,7 +6,7 @@
    __1-Tipos númericos:__
 
        -Tipo entero (int):__    
-        -Representan todos los números enteros (positivos, negativos y 0), sin parte decimal. En                                   python3 este tipo no tiene limitación de espacio.
+        -Representan todos los números enteros (positivos, negativos y 0), sin parte decimal.
               
        -Tipo real (float):     
         -Reales (float) : Sirve para representar los números reales, tienen una parte decimal y                                   otra decimal
@@ -21,4 +21,5 @@
        -Las cadenas de caracteres ( str ): Me permiten guardar secuencias de caracteres. Es un tipo                               inmutable
     
    __4-Tipo de datos mapas o diccionario (dict):__ 
-       -Los diccionarios son tipos de datos que nos permiten guardar valores,a los que se puede acceder por medio de una clave . Son tipos de datos mutables y los campos no tienen asignado orden.
+       -Los diccionarios son tipos de datos que nos permiten guardar valores,a los que se puede acceder
+       por medio de una clave . Son tipos de datos mutables y los campos no tienen asignado orden.
