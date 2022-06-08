@@ -5,7 +5,7 @@
 
 __1-Tipos númericos:__
 
-       -Tipo entero (int):__    
+       -Tipo entero (int):    
         Representan todos los números enteros (positivos, negativos y 0), sin parte decimal.
               
        -Tipo real (float):     
@@ -19,7 +19,7 @@ __2-Tipo lista (list):__
        -Las listas nos permiten guardar un conjunto de datos que se pueden repetir y que pueden ser de distintos tipos. Es un tipo mutable. Son muy usadas para tratar un conjunto de datos.
        
        -Metodos Principales: lista.append,lista.copy,lista.extend,lista.insert,lista.remove,lista.sort,lista.clear,
-       lista.count,lista.index,lista.pop,lista.reverse
+lista.count,lista.index,lista.pop,lista.reverse
     
 __3-Tipo cadena (str):__
       
