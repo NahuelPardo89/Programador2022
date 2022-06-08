@@ -9,7 +9,7 @@
         Representan todos los números enteros (positivos, negativos y 0), sin parte decimal.
               
        -Tipo real (float):     
-        Reales (float) : Sirve para representar los números reales, tienen una parte decimal y                                   otra decimal
+        Reales (float) : Sirve para representar los números reales, tienen una parte decimal y otra decimal
               
        -Tipo numérico(complex):  
         Nos sirven para representar números complejos, con una parte real y otra imaginaria
