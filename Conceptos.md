@@ -5,11 +5,14 @@
 
    __1-Tipos númericos:__
 
-       -Tipo entero (int):__    Representan todos los números enteros (positivos, negativos y 0), sin parte decimal. En                                   python3 este tipo no tiene limitación de espacio.
+       -Tipo entero (int):__    
+        -Representan todos los números enteros (positivos, negativos y 0), sin parte decimal. En                                   python3 este tipo no tiene limitación de espacio.
               
-       -Tipo real (float):      Reales (float) : Sirve para representar los números reales, tienen una parte decimal y                                   otra decimal
+       -Tipo real (float):     
+        -Reales (float) : Sirve para representar los números reales, tienen una parte decimal y                                   otra decimal
               
-       -Tipo numérico(complex):  Complejos (complex) : Nos sirven para representar números complejos, con una                                              parte real y otra imaginaria
+       -Tipo numérico(complex):  
+       -Complejos (complex) : Nos sirven para representar números complejos, con una                                              parte real y otra imaginaria
 
    __2-Tipo lista (list):__ 
        -Las listas nos permiten guardar un conjunto de datos que se pueden repetir y que pueden ser                               de distintos tipos. Es un tipo mutable. Son muy usadas para tratar un conjunto de datos.
