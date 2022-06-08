@@ -10,7 +10,7 @@
 
 ### ENCABEZADOS
   
-  -Para crear un encabezado, agrega uno a seis símbolos # antes del encabezado del texto. La cantidad de # que utilices determinará el tamaño del encabezado.
+     -Para crear un encabezado, agrega uno a seis símbolos # antes del encabezado del texto. La cantidad de # que utilices determinará el tamaño del encabezado.
 
 ### ESTILO DE TEXTO
    -Puedes indicar un énfasis con texto en negritas, itálicas, tachado en los campos de comentario y archivos .md.
