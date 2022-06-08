@@ -17,8 +17,7 @@ Puedes indicar un énfasis con texto en negritas, itálicas, tachado, subíndice
 ### Tachado	~~ ~~		
 ### Cursiva en negrita y anidada	** ** y _ _		
 ### Todo en negrita y cursiva	*** ***		
-### Subíndice	"<sub> </sub>"		
-### Superíndice	<sup> </sup>		
+
 
 ### Enlaces
 Puedes crear un enlace en línea al encerrar el texto del enlace entre corchetes [ ], y luego encerrar la URL entre paréntesis ( ). También puedes utilizar el atajo de teclado Command+K para crear un enlace. Cuando tengas texto seleccionado, puedes pegar una URL desde tu portapapeles para crear un enlace automáticamente desde la selección.
