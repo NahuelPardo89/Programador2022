@@ -23,3 +23,5 @@ Puedes indicar un énfasis con texto en negritas, itálicas, tachado en los camp
 Puedes crear un enlace en línea al encerrar el texto del enlace entre corchetes [ ], y luego encerrar la URL entre paréntesis ( ). También puedes utilizar el atajo de teclado Command+K para crear un enlace. Cuando tengas texto seleccionado, puedes pegar una URL desde tu portapapeles para crear un enlace automáticamente desde la selección.
 
 También puedes crear un hipervínculo de lenguaje de marcado si resaltas el texto y utilizas el atajo de teclado Command+V. Si quieres reemplazar el texto con el enlace, utiliza el atajo de teclado Command+
+### PARA MAS INFORMACIÓN:
+https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
