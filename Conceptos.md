@@ -21,6 +21,8 @@ __2-Tipo lista (list):__
 __3-Tipo cadena (str):__
       
       -Las cadenas de caracteres ( str ): Me permiten guardar secuencias de caracteres. Es un tipo inmutable
+      
+      -Metodos Principales:lista.append,lista.copy,lista.extend,lista.insert,lista.remove,lista.sort,lista.clear,lista.count,lista.index,lista.pop,lista.reverse
     
 __4-Tipo de datos mapas o diccionario (dict):__
       
