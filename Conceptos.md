@@ -3,9 +3,9 @@
 ## TIPOS DE DATOS:
 ### principales tipos de datos :
 
-    __1-Tipos númericos:__
+  <sup> __1-Tipos númericos:__</sup>
 
-              Tipo entero (int):  Representan todos los números enteros (positivos, negativos y 0), sin parte decimal. En                                   python3 este tipo no tiene limitación de espacio.
+              <sub> Tipo entero (int):</sub>  Representan todos los números enteros (positivos, negativos y 0), sin parte decimal. En                                   python3 este tipo no tiene limitación de espacio.
               
               Tipo real (float):  Reales (float) : Sirve para representar los números reales, tienen una parte decimal y                                   otra decimal
               
