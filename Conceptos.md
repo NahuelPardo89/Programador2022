@@ -18,8 +18,8 @@
        -Las listas nos permiten guardar un conjunto de datos que se pueden repetir y que pueden ser                               de distintos tipos. Es un tipo mutable. Son muy usadas para tratar un conjunto de datos.
     
 <sup>__3-Tipo cadena (str):__</sup> 
-       -Las cadenas de caracteres ( str ): Me permiten guardar secuencias de caracteres. Es un tipo                               inmutable
+      -Las cadenas de caracteres ( str ): Me permiten guardar secuencias de caracteres. Es un tipo                               inmutable
     
 <sup>__4-Tipo de datos mapas o diccionario (dict):__</sup>
-       -Los diccionarios son tipos de datos que nos permiten guardar valores,a los que se puede acceder
+      -Los diccionarios son tipos de datos que nos permiten guardar valores,a los que se puede acceder
        por medio de una clave . Son tipos de datos mutables y los campos no tienen asignado orden.
