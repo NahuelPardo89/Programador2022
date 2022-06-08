@@ -5,12 +5,12 @@ Actividad 1: Asignarse una Issue, agregar a Conceptos.md, de manera ordenada, lo
 
 
 
-# Sintaxis de escritura y formato básicos para enriquecer el archivo Conceptos 
+# Sintaxis de escritura y formato básicos para enriquecer el archivo Conceptos y en comentarios. 
 
 ## Encabezados
 Para crear un encabezado, agrega uno a seis símbolos # antes del encabezado del texto. La cantidad de # que utilices determinará el tamaño del encabezado.
 ## Estilo de texto
-Puedes indicar un énfasis con texto en negritas, itálicas, tachado, subíndice o superíndice en los campos de comentario y archivos .md.
+Puedes indicar un énfasis con texto en negritas, itálicas, tachado en los campos de comentario y archivos .md.
 
 ### Negrita	** ** o __ __	Command+B (Mac) o Ctrl+B (Windows/Linux)	
 ### Cursiva	* * o _ _     	Command+I (Mac) o Ctrl+I (Windows/Linux)	
