@@ -29,3 +29,5 @@ __3-Tipo cadena (str):__
 __4-Tipo de datos mapas o diccionario (dict):__
       
       -Los diccionarios son tipos de datos que nos permiten guardar valores,a los que se puede acceder por medio de una clave . Son tipos de datos mutables y los campos no tienen asignado orden.
+
+# BASE DE DATOS
