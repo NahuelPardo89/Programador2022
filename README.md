@@ -17,7 +17,7 @@ Puedes indicar un énfasis con texto en negritas, itálicas, tachado, subíndice
 ### Tachado	~~ ~~		
 ### Cursiva en negrita y anidada	** ** y _ _		
 ### Todo en negrita y cursiva	*** ***		
-### Subíndice	<sub> </sub>		
+### Subíndice	"<sub> </sub>"		
 ### Superíndice	<sup> </sup>		
 
 ### Enlaces
