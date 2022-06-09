@@ -1,5 +1,5 @@
 
-   #                                                          PYTHON
+# PYTHON
 ## TIPOS DE DATOS:
 ### principales tipos de datos :
 
