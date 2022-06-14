@@ -46,3 +46,36 @@ La tecnología informática plantea nuevas situaciones y problemas de naturaleza
 
 -También se define como la disciplina que identifica y analiza los impactos de las tecnologías de la información en la salud, riqueza, trabajo, libertad, democracia, conocimiento, privacidad, seguridad o autorrealización personal.
 
+# SCRUM
+
+## _CONCEPTOS_
+
+### *CEREMONIAS:* Se realizan a lo largo del proyecto.
+ 
+- **_Sprint Planning Meeting:_** Al iniciar cada Sprint y tiene por objetivo decicir que se va a realizar.
+
+- **_Daily Scrum Meeting:_** Se produce diariamente y tiene un máximo de 20 min, tiene por objetivo tratar que se hizo, lo que se va hacer y los problemas que se encontraron a fin de encontra soluciones en la diaria.
+
+- **_Sprint Review Meeting:_** Se prodece al finalizar el Sprint y tiene por objetivo mostrar que se ha completado y que no. Debe estar presente el Product Owner.
+
+- **_Sprint Retrospective Meeting:_** Se realiza al finalizar el proyecto y tiene por objeto documentar que ha fucionado y que no. La idea es centrarse en lo que salió bien y en lo que se debe me mejorar para la proxima interacción.
+
+### _ROLES_
+
+- **_Product Owner (PO):_** Dueño del Producto
+
+- **_Scrum Master_**
+
+- **_Development Team_**
+
+- **_Customers_**
+
+- **_User_**
+
+### _ARTEFACTOS_
+
+- **_Product Backlog:_** Pila del producto 
+
+- **_Sprint Backlog:_** Pila del Sprint
+
+- **_Increment:_** Incremento
