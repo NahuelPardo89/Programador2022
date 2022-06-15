@@ -81,8 +81,7 @@ La tecnología informática plantea nuevas situaciones y problemas de naturaleza
 - **_Increment:_** Incremento
 
 ### *Conceptos generales :Lenguaje compilado vs interpretado*
-
--Los **lenguajes compilados** son aquellos lenguajes de alto nivel que como su nombre lo sugiere, requieren de un compilador (programa que traduce un lenguaje de alto nivel en código máquina o lenguaje máquina) para traducirlo y crear la parte ejecutable.
+Los **lenguajes compilados** son aquellos lenguajes de alto nivel que como su nombre lo sugiere, requieren de un compilador (programa que traduce un lenguaje de alto nivel en código máquina o lenguaje máquina) para traducirlo y crear la parte ejecutable.
 Ejemplos: C y C++
 Los **lenguajes interpretados** son aquellos lenguajes de programación también de alto nivel en donde el código fuente debe ser traducido a un lenguaje que la máquina entienda y pueda realizar, no crean un archivo externo.
 Ejemplos: Python y Ruby
