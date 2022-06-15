@@ -86,6 +86,7 @@ Ejemplos: C y C++.
 
 Los **lenguajes interpretados** son aquellos lenguajes de programación también de alto nivel en donde el código fuente debe ser traducido a un lenguaje que la máquina entienda y pueda realizar, no crean un archivo externo.
 Ejemplos: Python y Ruby
-Los lenguajes interpretados son multiplataformas, recordemos que una plataforma es un sistema operativo que ejecuta programas, por lo que son más flexibles, pero se requiere de un intérprete (programa informático que analiza y ejecuta otros programas) para traducirlo y que la máquina lo reconozca.
+
+Este lenguaje es multiplataformas, recordemos que una plataforma es un sistema operativo que ejecuta programas, por lo que son más flexibles, pero se requiere de un intérprete (programa informático que analiza y ejecuta otros programas) para traducirlo y que la máquina lo reconozca.
 Por otro lado, los lenguajes compilados están preparados para ejecutarse inmediatamente ya que durante la compilación se tradujo todo a un lenguaje que la máquina entendiera (lenguaje máquina) y por ello suelen ser más rápidos.
 
