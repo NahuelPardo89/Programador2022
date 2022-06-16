@@ -90,3 +90,25 @@ Ejemplos: Python y Ruby
 Este lenguaje es multiplataformas, recordemos que una plataforma es un sistema operativo que ejecuta programas, por lo que son más flexibles, pero se requiere de un intérprete (programa informático que analiza y ejecuta otros programas) para traducirlo y que la máquina lo reconozca.
 Por otro lado, los lenguajes compilados están preparados para ejecutarse inmediatamente ya que durante la compilación se tradujo todo a un lenguaje que la máquina entendiera (lenguaje máquina) y por ello suelen ser más rápidos.
 
+### _Base de datos:Normalización y sus formas_
+La normalización es el proceso simplificacion de los datos de una base de datos. Se incluye la creación de tablas y el establecimiento de relaciones entre ellas según reglas diseñadas tanto para proteger los datos como para hacer que la base de datos sea más flexible al eliminar la redundancia y las dependencias incoherentes.
+Los principales objetivos de la normalizacion son tener almacenados los datos utilizando el menor espacio posible, eliminando datos repetidos y lógicos y tener todos los datos ordenados.
+
+### _Formas de normalización_
+#1ra Forma: una tabla está en Primera forma normal si:
+Todos los atributos son «atómicos». 
+-La tabla contiene una clave primaria única.
+-La clave primaria no contiene atributos nulos. No podemos tener filas para las que no haya clave.
+-No debe existir variación en el número de columnas. Si algunas filas tienen 8 columnas y otras 3,no estamos en 1FN.
+-Los campos no clave deben identificarse por la clave. Es decir, que los campos no clave dependen funcionalmente de la clave. Esto es prácticamente lo mismo que decir que existe clave primaria.
+-Debe Existir una independencia del orden tanto de las filas como de las columnas, es decir, si los datos cambian de orden no deben cambiar sus significados. 
+
+#2da Forma: una tabla está en Segunda forma normal si además de estar en 1FN cumple que los atributos no clave depende de TODA la clave principal.
+
+#3ra Forma: una tabla está en 3FN si además de estar en 2FN no existe ninguna dependencia transitiva entre los atributos que no son clave.
+
+#Forma normal de Boyce-Codd
+Es una FN ligeramente más estricta que la 3FN. En concreto requiere esté en 3FN y que que no existan dependencias funcionales no triviales de los atributos que no sean un conjunto de la clave candidata. O dicho de otra forma: una tabla está en FNBC si está en 3FN y los únicos determinantes (atributo que depende de otro atributo) son claves candidatas.
+
+#Hay todavía más formas normales: 4FN, 5FN y Forma Normal de Dominio/Clave (DKFN).
+
