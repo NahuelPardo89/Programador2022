@@ -112,3 +112,34 @@ Es una FN ligeramente más estricta que la 3FN. En concreto requiere esté en 3F
 
 #Hay todavía más formas normales: 4FN, 5FN y Forma Normal de Dominio/Clave (DKFN).
 
+
+### HISTORIA Y EVOLUCION DE LOS SGBD
+
+
+**Origenes**
+
+Se remontan a la Antigüedad donde ya existían bibliotecas y toda clase de registros (cosechas y censos), los censos se realizaban de forma manual.
+
+
+**1884** _Herman Hollerith_ comenzó a trabajar en el diseño de una maquina tabuladora o censadora, basada en tarjetas perforadas.
+
+
+**1950** se da origen a las cintas magnéticas, para automatizar la información y hacer respaldos.
+
+
+**1960** se popularizo el uso de los discos,a partir de este soporte se podía consultar la información directamente, sin tener que saber la ubicación exacta de los datos.
+
+
+**1970** _Edgar Frank Codd_,publicó una serie de reglas para los sistemas de datos relacionales a través de su artículo “Un modelo relacional de datos para grandes bancos de datos compartidos”. _Lawrence J. Ellison_, desarrolló el Relational Software System, actualmente se conoce como Oracle Corporation.
+
+
+**1980** Se desarrolló el SQL (Structured Query Language), un lenguaje de consulta.
+
+
+**1990** La oferta de otros Sistemas Administradores de Bases de Datos Relacionales, como PostgreSQL, MySQL o Firebird.Se da inicio a las bases de datos que se orientaban a los objetos.
+
+
+***Tendencias Actuales***
+
+
+Se ha empezado a extender un tipo de aplicación de las BD denominado Data Warehouse, o almacén de datos.Estos almacenes de datos se utilizan exclusivamente para hacer consultas, de forma especital para que lleven a cabo estudios los analistas financieros, los analistas de mercado, etc. Actualmente, los SGBD se adaptan a este tipo de aplicación, incorporando, por ejemplo, herramientas como las siguientes: La creación y el mantenimiento de réplicas, con una cierta elaboración de los datos. La consolidación de datos de orígenes diferentes. La creación de estructuras físicas que soporten eficientemente el análisis multidimensional.
