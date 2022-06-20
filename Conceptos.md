@@ -143,3 +143,38 @@ Se remontan a la Antigüedad donde ya existían bibliotecas y toda clase de regi
 
 
 Se ha empezado a extender un tipo de aplicación de las BD denominado Data Warehouse, o almacén de datos.Estos almacenes de datos se utilizan exclusivamente para hacer consultas, de forma especital para que lleven a cabo estudios los analistas financieros, los analistas de mercado, etc. Actualmente, los SGBD se adaptan a este tipo de aplicación, incorporando, por ejemplo, herramientas como las siguientes: La creación y el mantenimiento de réplicas, con una cierta elaboración de los datos. La consolidación de datos de orígenes diferentes. La creación de estructuras físicas que soporten eficientemente el análisis multidimensional.
+
+# GIT
+## CONTROL DE VERSIONES
+
+Un control de versiones, es un sistema que registra los cambios realizados en un archivo o conjunto de archivos a lo largo del tiempo, de modo que puedas recuperar versiones específicas más adelante. Dicho sistema te permite regresar a versiones anteriores de tus archivos, regresar a una versión anterior del proyecto completo, comparar cambios a lo largo del tiempo, ver quién modificó por última vez algo que pueda estar causando problemas, ver quién introdujo un problema y cuándo, y mucho más. Usar un VCS también significa generalmente que si arruinas o pierdes archivos, será posible recuperarlos fácilmente. Adicionalmente, obtendrás todos estos beneficios a un costo muy bajo. 
+## Existen:
+- **_Sistemas de Control de Versiones Locales_** 
+- **_Sistemas de Control de Versiones Centralizados_**
+- **_Sistemas de Control de Versiones Distribuidoss_**
+
+
+## **Una breve historia de Git**
+El kernel de Linux es un proyecto de software de código abierto con un alcance bastante amplio. Durante la mayor parte del mantenimiento del kernel de Linux (1991-2002), los cambios en el software se realizaban a través de parches y archivos. En el 2002, el proyecto del kernel de Linux comenzó a usar un DVCS propietario llamado BitKeeper. 
+En el 2005, la relación entre la comunidad que desarrollaba el kernel de Linux y la compañía que desarrollaba BitKeeper se vino abajo y la herramienta dejó de ser ofrecida de manera gratuita. Esto impulsó a la comunidad de desarrollo de Linux (y en particular a Linus Torvalds, el creador de Linux) a desarrollar su propia herramienta basada en algunas de las lecciones que aprendieron mientras usaban BitKeeper. Algunos de los objetivos del nuevo sistema fueron los siguientes: 
+- **Velocidad** 
+- **Diseño sencillo** 
+- **Gran soporte para desarrollo no lineal (miles de ramas paralelas)** 
+- **Completamente distribuido** 
+- **Capaz de manejar grandes proyectos (como el kernel de Linux) eficientemente (velocidad y tamaño de los datos)** 
+
+Desde su nacimiento en el 2005, Git ha evolucionado y madurado para ser fácil de usar y conservar sus características iniciales. Es tremendamente rápido, muy eficiente con grandes proyectos y tiene un increíble sistema de ramificación (branching) para desarrollo no lineal
+Funciones:
+- **Copias instantáneas**
+- **Casi todas las operaciones son locales**
+- **Git tiene integridad**
+- **Git generalmente solo añade información**
+
+## **Los Tres Estados Importantes**
+
+Esto es lo más importante que debes recordar acerca de Git si quieres que el resto de tu proceso de aprendizaje prosiga sin problemas. Git tiene tres estados principales en los que se pueden encontrar tus archivos: confirmado **(committed)**, modificado **(modified)**, y preparado **(staged)**.
+## El flujo de trabajo básico en Git es algo así: 
+- Modificas una serie de archivos en tu directorio de trabajo. 
+- Preparas los archivos, añadiéndolos a tu área de preparación. 
+- Confirmas los cambios, lo que toma los archivos tal y como están en el área de preparación y almacena esa copia instantánea de manera permanente en tu directorio de Git. 
+
