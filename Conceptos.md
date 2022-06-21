@@ -153,7 +153,6 @@ Un control de versiones, es un sistema que registra los cambios realizados en un
 - **_Sistemas de Control de Versiones Centralizados_**
 - **_Sistemas de Control de Versiones Distribuidoss_**
 
-
 ## **Una breve historia de Git**
 El kernel de Linux es un proyecto de software de código abierto con un alcance bastante amplio. Durante la mayor parte del mantenimiento del kernel de Linux (1991-2002), los cambios en el software se realizaban a través de parches y archivos. En el 2002, el proyecto del kernel de Linux comenzó a usar un DVCS propietario llamado BitKeeper. 
 En el 2005, la relación entre la comunidad que desarrollaba el kernel de Linux y la compañía que desarrollaba BitKeeper se vino abajo y la herramienta dejó de ser ofrecida de manera gratuita. Esto impulsó a la comunidad de desarrollo de Linux (y en particular a Linus Torvalds, el creador de Linux) a desarrollar su propia herramienta basada en algunas de las lecciones que aprendieron mientras usaban BitKeeper. Algunos de los objetivos del nuevo sistema fueron los siguientes: 
@@ -178,3 +177,28 @@ Esto es lo más importante que debes recordar acerca de Git si quieres que el re
 - Preparas los archivos, añadiéndolos a tu área de preparación. 
 - Confirmas los cambios, lo que toma los archivos tal y como están en el área de preparación y almacena esa copia instantánea de manera permanente en tu directorio de Git. 
 
+# SOFTWARE
+
+## **_DEFINICION_** 
+El software son los programas; los documentos asociados y la configuración de datos que se necesitan para hacer que estos programas operen de manera correcta.
+la documentacion se refiere a ducumentos que describen:
+
+-La organizacion del sistema.
+
+-Documentos para el usuario que les explica cómo utrilizar el sistema
+
+-Sitios web que permitan a los usuarios descargar la información de actualizaciones del producto.
+
+_Software_(IEE):Parte de un sistema que se puede codificar para ejecutarse en una computadora como un conjunto de instrucciones.Incluye la documentación asociada necesaria para comprender,transformar y usar esa solución.
+
+## **_Historia del software_**
+ 
+ _Podemos dividir la historia del software en las siguientes etapas partiendo desde su origen hasta su situación en el siglo XXI_:
+ 
+- **Etapa anterior a 1950**: Son décadas en las que se sientan las primeras bases y pinceladas del software. Como se ha mencionado en el epígrafe anterior, Ada Lovelace y Alan Turing son los precursores del concepto ‘software’.
+
+- **Década de los 50’ 60’ y 70’**: En estos años el software pasó de ser un concepto teórico y abstracto a ser reconocido como un factor indispensable para la invención y desarrollo de dispositivos o máquinas. Se acuña por primera vez en una conferencia de la OTAN el término ‘ingeniería de software’. Esto es la primera muestra de una de las ciencias y profesiones más estudiadas y demandadas correspondientemente. En aquella época los lenguajes que más se utilizaban eran COBOL y FORTRAN.
+
+- **Década de los 80’ y 90’**: En estas dos décadas se identifica un problema, y es que la gran demanda superaba la oferta de profesionales en la industria. Además, los profesionales no podían abarcar tantas áreas de conocimiento sin especialización previa. Surgieron los primeros colapsos en proyectos y trabajos de complejidad avanzada. Sin ir más lejos, en esta época se lanzan Windows en 1985 y Linux en 1992. Además la aparición del lenguaje HTML es gracias al auge del World Wide Web (WWW), uno de los principales hitos de la era digital.
+
+- **Siglo XXI**: Desde principios del siglo XXI se han dado grandes avances en todos los campos que abarca el software. Desde la aparición de los revolucionarios smartphone, con un software integrado que hace que un único dispositivo pueda realizar tareas en las que antes se necesitaba un ordenador. Por otra parte, también se han llegado a niveles de desarrollo en tecnologías aún por investigar y desarrollar como lo son la IA o las ya tan conocidas criptomonedas. Ejemplos de estos avances son los asistentes de voz de grandes compañías como Apple, Microsoft o Amazon, los cuales pueden imitar el comportamiento humano. A estos efectos, se dan multitud de lenguajes de programación en los que el objetivo del proyecto determina qué lenguaje se debe utilizar y por ende, qué tipo profesional en específico se necesita. Algunos lenguajes que podemos mencionar son SWIFT (para aplicaciones en entornos iOS), JavaScript (para entornos web) o PHP (destinado a tareas y programación de servidores o máquinas físicas).
