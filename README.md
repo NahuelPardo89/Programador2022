@@ -8,6 +8,7 @@
 
 
 # GITHUB
+
 ## Sintaxis de escritura y formato básicos para enriquecer el archivo Conceptos y en comentarios. 
 
 ### ENCABEZADOS
