@@ -202,3 +202,91 @@ _Software_(IEE):Parte de un sistema que se puede codificar para ejecutarse en un
 - **Década de los 80’ y 90’**: En estas dos décadas se identifica un problema, y es que la gran demanda superaba la oferta de profesionales en la industria. Además, los profesionales no podían abarcar tantas áreas de conocimiento sin especialización previa. Surgieron los primeros colapsos en proyectos y trabajos de complejidad avanzada. Sin ir más lejos, en esta época se lanzan Windows en 1985 y Linux en 1992. Además la aparición del lenguaje HTML es gracias al auge del World Wide Web (WWW), uno de los principales hitos de la era digital.
 
 - **Siglo XXI**: Desde principios del siglo XXI se han dado grandes avances en todos los campos que abarca el software. Desde la aparición de los revolucionarios smartphone, con un software integrado que hace que un único dispositivo pueda realizar tareas en las que antes se necesitaba un ordenador. Por otra parte, también se han llegado a niveles de desarrollo en tecnologías aún por investigar y desarrollar como lo son la IA o las ya tan conocidas criptomonedas. Ejemplos de estos avances son los asistentes de voz de grandes compañías como Apple, Microsoft o Amazon, los cuales pueden imitar el comportamiento humano. A estos efectos, se dan multitud de lenguajes de programación en los que el objetivo del proyecto determina qué lenguaje se debe utilizar y por ende, qué tipo profesional en específico se necesita. Algunos lenguajes que podemos mencionar son SWIFT (para aplicaciones en entornos iOS), JavaScript (para entornos web) o PHP (destinado a tareas y programación de servidores o máquinas físicas).
+
+# **Diseño de bases de datos relacionales** #
+## **Definición de diseño de base de datos:** ##
+  *En este tema se estudia un aspecto fundamental de las bases de datos: su diseño. En las bases de datos se ha establecido un ciclo de desarrollo que consta de tres etapas de diseño: **el diseño conceptual, el diseño lógico y el diseño físico.** Mientras que las dos primeras etapas y el paso de una a otra están muy fundamentados, no ocurre lo mismo con la tercera, dado que las primeras son lo suficientemente abstractas como para no depender de ninguna implementación en concreto; sin embargo, el diseño físico depende del SGBD usado, y no hay reglas formales para llevarlo a cabo.*
+### Video YouTube ###
+*https://www.youtube.com/watch?v=MRmmPJId5-k&feature=emb_imp_woyt*
+## Etapas de diseño: ##
+   *La metodología de diseño de bases de datos relacionales se ha consolidado a lo largo de los años satisfaciendo las propiedades de generalidad (independencia de la plataforma hardware/software), calidad del producto (precisión, completitud y eficacia) y facilidad de uso.
+   Consta de las siguientes etapas:*
+### 1. Diseño conceptual: ###
+   Su objetivo es definir las entidades y las relaciones entre ellos de forma abstracta, sin centrarse en ningún modelo lógico en concreto (como el relacional, el orientado a objetos, el jerárquico o el de red).
+  - Herramienta: Modelo conceptual de datos. Se usa alguna variante del modelo entidad-relación para las bases de datos relacionales.
+  - Resultado: Esquema conceptual de la base de datos.
+
+### 2. Diseño lógico: ###
+   Su objetivo es definir el esquema de la base de datos según el
+modelo que implementa el SGBD objetivo.
+  - Herramienta: Modelo lógico de datos. Se usa el modelo lógico que implemente el sistema de gestión de bases de datos objetivo, pero es independiente de los aspectos físicos. Se usan técnicas formales para verificar la calidad del esquema lógico; la más usual es la
+normalización. En el modelo relacional se usan las tablas.
+  - Resultado: Esquema lógico de la base de datos.
+
+### 3. Diseño físico: ###
+   Su objetivo es definir el esquema físico de la base de datos de forma que se den todas las instrucciones para que un DBA pueda implementar la base de datos sin ninguna ambigüedad. Se considera el rendimiento como un aspecto que no se ha tratado en las etapas anteriores.
+  - Herramienta: Modelo físico de datos. Se consideran todos los detalles de la implementación física: organización de archivos e índices para el SGBD considerado.
+  - Resultado: Esquema físico de la base de datos.
+
+***La siguiente figura muestra resumido el ciclo de desarrollo clásico de bases de datos:***
+
+![image](https://user-images.githubusercontent.com/106756596/175206126-a4f962aa-a339-4662-b8c2-e836a4fb5c59.png)
+    
+## Diseño Conceptual: ##
+En este apartado se estudia el modelo entidad-relación que permite diseñar el esquema conceptual de una BD, y es muy adecuado para las BDs relacionales. Su resultado es un diagrama entidad-relación.
+A lo largo de este apartado se usará un ejemplo de aplicación correspondiente a las necesidades de una secretaría de un centro docente, en la que hay alumnos matriculados en asignaturas y profesores que las imparten en ciertas aulas. Los alumnos consiguen una nota determinada en
+cada asignatura en que están matriculados.
+
+### Conceptos: ### 
+ •      Entidad: Es el menor objeto con significado en una instancia.
+Por ejemplo, para el diseño de una BD de la secretaría de un centro docente, el alumno con los siguientes datos:
+                            DNI = 01234567Z,
+                            Nombre y apellidos = Manuel Vázquez Prieto,
+                            Teléfono = 91-12345678
+                            Domicilio = Calle del Jazmín 7, 4 Izq.
+ Constituye una entidad. Igual sucede con cada asignatura concreta, cada profesor, etc.
+
+ En el caso del enfoque "clásico" correspondería a cada registro guardado en un fichero.
+ •      Atributo: Es cada uno de los componentes que determinan una entidad.
+   Cada atributo tiene asociado un dominio: el conjunto de valores que puede tomar.
+   La entidad del ejemplo anterior viene determinada por los valores de sus atributos DNI, Nombre y Apellidos, Teléfono, Domicilio y COU.
+En el enfoque clásico serían los campos de los registros.
+•     Atributos monovalorados y multivalorados: Los atributos multivalorados son los que pueden contener más de un valor simultáneamente, y monovalorados a los que sólo pueden contener un valor.
+Por ejemplo, una persona puede tener varios números de teléfono (casa, trabajo, móvil) y puede que nos interese tenerlos todos. En este caso haremos de teléfono un atributo multivalorado.
+•     Atributos simples y compuestos: Un atributo es compuesto cuando puede descomponerse en otros componentes o atributos más pequeños, y simple en otro caso.
+Por ejemplo, en el caso del domicilio puede que nos interese descomponerlo a su vez en calle, el número y la ciudad por separado.
+•    Clave: Es un atributo o conjunto de atributos cuyos valores identifican unívocamente cada entidad.
+Por ejemplo, DNI es un atributo clave del tipo de entidad Alumnos. Esto significa que los valores de la clave no se pueden repetir en el conjunto de entidades. En el ejemplo anterior ningún DNI se debería repetir en una instancia del tipo de entidad Alumnos.
+***El concepto de clave distingue tres claves diferentes:***
+
+- Superclave.
+ Es cualquier conjunto de atributos que pueden identificar unívocamente a una tupla.
+
+- Clave candidata.
+ Es el menor conjunto de atributos que puede formar clave. Puede haber varias en una tabla.
+  
+- ClavePrimaria. 
+Es la clave candidata que distingue el usuario para identificar unívocamente cada tupla. Es importante en cuanto al aspecto del rendimiento, como se verá en el apartado dedicado al diseño físico.
+
+•     Tipo de entidad. Es el conjunto de entidades que comparten los mismos atributos (aunque con diferentes valores para ellos).
+Por ejemplo, Alumnos será un tipo de entidad que representa cualquier conjunto de entidades en el que todas tengan como atributos
+DNI, Nombre y Apellidos, ... y valores dentro de los dominios correspondientes. Asignaturas será otro tipo de entidad, etc.
+  Intuición: En el enfoque "clásico" sería el tipo de los registros.
+  Estamos describiendo el esquema de la base de datos.
+•      Relación. Es una correspondencia entre dos o más entidades. Se habla de relaciones binarias cuando la correspondencia es entre dos entidades, ternarias cuando es entre tres, y así sucesivamente.
+    Por ejemplo, la relación (José García, Bases de datos) es una relación entre dos entidades que indica que el alumno José García está
+matriculado en la asignatura Bases de datos.
+•     Tipos de relación. Representan a todas las posibles relaciones entre entidades del mismo tipo.
+    Por ejemplo, el tipo de relación matrícula relaciona el tipo de entidad alumnos con el tipo de entidad asignaturas.
+                  Observaciones:
+• Las relaciones también pueden tener atributos. Por ejemplo, Matrícula puede tener el atributo Nota que indica la nota que el
+alumno ha obtenido en una asignatura determinada.
+
+### Es posible que el mismo tipo de entidad aparezca dos o más veces en un tipo de relación. En este caso se asigna un nombre a cada papel que hace el tipo de entidad en el tipo de relación. Por ejemplo, algunos profesores tienen un supervisor, por lo que se define un tipo de relación Supervisa que relaciona profesores con profesores, el primero tendrá el papel de supervisor y el segundo de supervisado. ###
+
+## Diseño lógico: ##
+El diseño lógico es la segunda etapa del diseño de bases de datos en general y de las bases de datos relacionales en particular. En nuestro caso, las BD relacionales, el resultado de esta etapa es un esquema relacional basado en un modelo relacional. En este apartado se describirá en primer lugar el modelo relacional y en segundo lugar cómo pasar de un esquema entidad-relación a un esquema relacional.
+
+## Diseño físico: ##
+El objetivo del diseño físico es la generación del esquema físico de la base de datos en el modelo de datos que implementa el SGBD. Esto incluye la definición sobre el SGBD de las tablas con sus campos, la imposición de todas las restricciones de integridad y la definición de índices. 
+  
