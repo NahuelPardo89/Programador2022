@@ -3,6 +3,7 @@
     -Repositorio mediante el cual aprenderemos a utilizar Github.
 
     -Actividad 1: Asignarse una Issue, agregar a Conceptos.md, de manera ordenada, lo solicitado por cada issue, una vez completa marcarla como "done". Dichas Issues se asignaron al Sprint 1 el cual finaliza el día viernes 24 de junio.
+   
     -Actividad 2: Subir Curriculum vitae utilizando Git
 
 
@@ -35,7 +36,7 @@
     se posiciona en la rama pasada como argumento
 
 ### git status
-    Verifica los cambios realizados
+    Verifica los cambios realizados. Es recomendable utilizarlo antes y despues del add para verificar que todo este correcto
 ### git add .
     Agrega los cambios a la staging area
 ### git commit –m “aquí agregamos un mensaje descriptivo de lo que estamos por subir al repositorio”
