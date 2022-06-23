@@ -202,3 +202,32 @@ _Software_(IEE):Parte de un sistema que se puede codificar para ejecutarse en un
 - **Década de los 80’ y 90’**: En estas dos décadas se identifica un problema, y es que la gran demanda superaba la oferta de profesionales en la industria. Además, los profesionales no podían abarcar tantas áreas de conocimiento sin especialización previa. Surgieron los primeros colapsos en proyectos y trabajos de complejidad avanzada. Sin ir más lejos, en esta época se lanzan Windows en 1985 y Linux en 1992. Además la aparición del lenguaje HTML es gracias al auge del World Wide Web (WWW), uno de los principales hitos de la era digital.
 
 - **Siglo XXI**: Desde principios del siglo XXI se han dado grandes avances en todos los campos que abarca el software. Desde la aparición de los revolucionarios smartphone, con un software integrado que hace que un único dispositivo pueda realizar tareas en las que antes se necesitaba un ordenador. Por otra parte, también se han llegado a niveles de desarrollo en tecnologías aún por investigar y desarrollar como lo son la IA o las ya tan conocidas criptomonedas. Ejemplos de estos avances son los asistentes de voz de grandes compañías como Apple, Microsoft o Amazon, los cuales pueden imitar el comportamiento humano. A estos efectos, se dan multitud de lenguajes de programación en los que el objetivo del proyecto determina qué lenguaje se debe utilizar y por ende, qué tipo profesional en específico se necesita. Algunos lenguajes que podemos mencionar son SWIFT (para aplicaciones en entornos iOS), JavaScript (para entornos web) o PHP (destinado a tareas y programación de servidores o máquinas físicas).
+
+# **Diseño de bases de datos relacionales** #
+## **Definición de diseño de base de datos:** ##
+  *En este tema se estudia un aspecto fundamental de las bases de datos: su diseño. En las bases de datos se ha establecido un ciclo de desarrollo que consta de tres etapas de diseño: **el diseño conceptual, el diseño lógico y el diseño físico.** Mientras que las dos primeras etapas y el paso de una a otra están muy fundamentados, no ocurre lo mismo con la tercera, dado que las primeras son lo suficientemente abstractas como para no depender de ninguna implementación en concreto; sin embargo, el diseño físico depende del SGBD usado, y no hay reglas formales para llevarlo a cabo.*
+### Video YouTube ###
+*https://www.youtube.com/watch?v=MRmmPJId5-k&feature=emb_imp_woyt*
+## Etapas de diseño: ##
+   *La metodología de diseño de bases de datos relacionales se ha consolidado a lo largo de los años satisfaciendo las propiedades de generalidad (independencia de la plataforma hardware/software), calidad del producto (precisión, completitud y eficacia) y facilidad de uso.
+   Consta de las siguientes etapas:*
+### 1. Diseño conceptual: ###
+   Su objetivo es definir las entidades y las relaciones entre ellos de forma abstracta, sin centrarse en ningún modelo lógico en concreto (como el relacional, el orientado a objetos, el jerárquico o el de red).
+  - Herramienta: Modelo conceptual de datos. Se usa alguna variante del modelo entidad-relación para las bases de datos relacionales.
+  - Resultado: Esquema conceptual de la base de datos.
+
+### 2. Diseño lógico:###
+   Su objetivo es definir el esquema de la base de datos según el
+modelo que implementa el SGBD objetivo.
+  - Herramienta: Modelo lógico de datos. Se usa el modelo lógico que implemente el sistema de gestión de bases de datos objetivo, pero es independiente de los aspectos físicos. Se usan técnicas formales para verificar la calidad del esquema lógico; la más usual es la
+normalización. En el modelo relacional se usan las tablas.
+  - Resultado: Esquema lógico de la base de datos.
+
+### 3. Diseño físico: ###
+   Su objetivo es definir el esquema físico de la base de datos de forma que se den todas las instrucciones para que un DBA pueda implementar la base de datos sin ninguna ambigüedad. Se considera el rendimiento como un aspecto que no se ha tratado en las etapas anteriores.
+  - Herramienta: Modelo físico de datos. Se consideran todos los detalles de la implementación física: organización de archivos e índices para el SGBD considerado.
+  - Resultado: Esquema físico de la base de datos.
+
+***La siguiente figura muestra resumido el ciclo de desarrollo clásico de bases de datos:***
+![image](https://user-images.githubusercontent.com/106756596/175206126-a4f962aa-a339-4662-b8c2-e836a4fb5c59.png)
+    
