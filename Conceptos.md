@@ -216,7 +216,7 @@ _Software_(IEE):Parte de un sistema que se puede codificar para ejecutarse en un
   - Herramienta: Modelo conceptual de datos. Se usa alguna variante del modelo entidad-relación para las bases de datos relacionales.
   - Resultado: Esquema conceptual de la base de datos.
 
-### 2. Diseño lógico:###
+### 2. Diseño lógico: ###
    Su objetivo es definir el esquema de la base de datos según el
 modelo que implementa el SGBD objetivo.
   - Herramienta: Modelo lógico de datos. Se usa el modelo lógico que implemente el sistema de gestión de bases de datos objetivo, pero es independiente de los aspectos físicos. Se usan técnicas formales para verificar la calidad del esquema lógico; la más usual es la
@@ -229,5 +229,6 @@ normalización. En el modelo relacional se usan las tablas.
   - Resultado: Esquema físico de la base de datos.
 
 ***La siguiente figura muestra resumido el ciclo de desarrollo clásico de bases de datos:***
+
 ![image](https://user-images.githubusercontent.com/106756596/175206126-a4f962aa-a339-4662-b8c2-e836a4fb5c59.png)
     
