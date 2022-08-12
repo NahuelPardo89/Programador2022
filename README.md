@@ -5,6 +5,8 @@
     -Actividad 1: Asignarse una Issue, agregar a Conceptos.md, de manera ordenada, lo solicitado por cada issue, una vez completa marcarla como "done". Dichas Issues se asignaron al Sprint 1 el cual finaliza el día viernes 24 de junio.
    
     -Actividad 2: Subir Curriculum vitae utilizando Git
+    
+    -Actividad Final: Realizar un ejercicio de Python por cada integrante del grupo y subirlo a su branch . Realizar entre todos la base de datos peluqueria canina, insertar datos en la misma, cada uno realizar una consulta y subirla a su branch
 
 
 # GITHUB
