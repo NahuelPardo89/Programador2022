@@ -49,7 +49,9 @@ values
 (23226566,"Pedro","Acevedo","156033426","Alvear 1956"),
 (30456933,"Carla","Gomez","154900636","Suipacha 455"),
 (49502277,"Tamara","Perez","15420432","Urquiza 56"),
-(34551604,"Florencia","Barrios","15640836","Tucuman 785");
+(34551604,"Florencia","Barrios","15640836","Tucuman 785"),
+(36736456, "Salvador", "Velazco","15500044","9 de julio 106"),
+(56334955, "Jose Luis", "Velez","15639944","Mendoza 78");
 ########################################################
 
 #insert tabla perro
@@ -61,7 +63,9 @@ values
 ("Simon","2017-01-20","macho",30456933),
 ("Tina","2018-11-03","hembra",30456933),
 ("Satan","2021-02-15","macho","49502277"),
-("Terry","2014-08-17","macho","34551604");
+("Terry","2014-08-17","macho","34551604"),
+("Pancho","2016-09-11","macho","36736456"),
+("Lorenzo","2011-01-01","macho","56334955");
 ########################################################
 #insert tabla historial
 INSERT INTO historial (Fecha,Perro,Descripcion,Monto)
@@ -72,4 +76,6 @@ values
 ("2022-07-25",4,"Corte de pelo y lavado",5000),
 ("2022-07-25",5,"Lavado y corte de uñas",3000),
 ("2021-11-10",6,"Limpieza dental",1500),
-("2022-03-25",7,"Servicio completo",7000);
+("2022-03-25",7,"Servicio completo",7000),
+("2022-08-02",8,"Corte de pelo y lavado",5000),
+("2022-07-09",9,"Limpieza dental",1500);
