@@ -12,7 +12,7 @@ CREATE TABLE `dueno` (
   `Nombre` VARCHAR(30)  NOT NULL,
   `Apellido` VARCHAR(30) NOT NULL,
   `Telefono` VARCHAR(13) NOT NULL,
-  `Direccion` VARCHAR(45) NOT NULL,
+  `Direccion`VARCHAR(45) NOT NULL,
   PRIMARY KEY (`DNI`)
 ) ;
 
@@ -67,3 +67,9 @@ values
 ("2018-01-15",3,"Lavado",2500),
 ("2022-07-25",4,"Corte de pelo y lavado",5000),
 ("2022-07-25",5,"Lavado y corte de uñas",3000);
+
+#ejercicio número 6 
+
+update dueno 
+set Direccion ="Libertad 123" where DNI=30456933;
+select * from dueno 
