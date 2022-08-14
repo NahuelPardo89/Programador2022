@@ -32,12 +32,12 @@ CREATE TABLE `perro` (
 CREATE TABLE `historial` (
   `ID_Historial` INT NOT NULL AUTO_INCREMENT,
   `Fecha` DATE DEFAULT NULL,
-  `Perro` INT NOT NULL,
+  `PerroID` INT NOT NULL,
   `Descripcion` VARCHAR(45) DEFAULT NULL,
-  `Monto` INT DEFAULT NULL,
+  `Monto` FLOAT NOT NULL,
   PRIMARY KEY (`ID_Historial`),
-  KEY `Perro_idx` (`Perro`),
-  CONSTRAINT `Perro` FOREIGN KEY (`Perro`) REFERENCES `perro` (`ID_Perro`)
+  KEY `Perro_idx` (`PerroID`),
+  CONSTRAINT `PerroID` FOREIGN KEY (`PerroID`) REFERENCES `perro` (`ID_Perro`)
 ) ;
 #insert de datos
 
@@ -51,7 +51,10 @@ values
 (49502277,"Tamara","Perez","15420432","Urquiza 56"),
 (34551604,"Florencia","Barrios","15640836","Tucuman 785"),
 (36736456, "Salvador", "Velazco","15500044","9 de julio 106"),
-(56334955, "Jose Luis", "Velez","15639944","Mendoza 78");
+(56334955, "Jose Luis", "Velez","15639944","Mendoza 78"),
+(35777899, "Martin", "Arce", "12457890", "Comechingones 160"),
+(36560890, "Yamila", "Avellaneda", "13567896", "Neuquén 1400"),
+(20000111,"Pedro","Quiñonez","154372605","Buena vista 1192");
 ########################################################
 
 #insert tabla perro
@@ -65,10 +68,14 @@ values
 ("Satan","2021-02-15","macho","49502277"),
 ("Terry","2014-08-17","macho","34551604"),
 ("Pancho","2016-09-11","macho","36736456"),
-("Lorenzo","2011-01-01","macho","56334955");
+("Lorenzo","2011-01-01","macho","56334955"),
+("Toby","2022-03-05","macho","35777899"),
+("Toto","2021-07-18","macho","36560890"),
+("Khali","2015-05-29","hembra",20000111);
 ########################################################
+
 #insert tabla historial
-INSERT INTO historial (Fecha,Perro,Descripcion,Monto)
+INSERT INTO historial (Fecha,PerroID,Descripcion,Monto)
 values
 ("2022-08-12",1,"Corte de pelo y lavado",5000),
 ("2022-05-29",2,"Lavado",2500),
@@ -78,4 +85,22 @@ values
 ("2021-11-10",6,"Limpieza dental",1500),
 ("2022-03-25",7,"Servicio completo",7000),
 ("2022-08-02",8,"Corte de pelo y lavado",5000),
-("2022-07-09",9,"Limpieza dental",1500);
+("2022-07-09",9,"Limpieza dental",1500),
+("2022-04-02",10,"Corte de pelo y lavado",5000),
+("2022-06-06",11,"Servicio Completo",7000),
+("2020-02-25",12,"Servicio Completo",7000);
+
+#Consultas
+#Ejercicio 6, obtener todos los perros que asistieron a la peluquería en 2022
+
+select PerroID from historial
+where Fecha
+between "2022-01-01" and "2022-12-31"
+
+
+
+
+
+
+
+
