@@ -1,3 +1,6 @@
+DROP DATABASE IF EXISTS peluqueriaCanina;
+
+
 # crea base de datos 'peluqeriaCanina
 CREATE DATABASE `peluqueriaCanina` ;
 
@@ -54,7 +57,9 @@ values
 (56334955, "Jose Luis", "Velez","15639944","Mendoza 78"),
 (35777899, "Martin", "Arce", "12457890", "Comechingones 160"),
 (36560890, "Yamila", "Avellaneda", "13567896", "Neuquén 1400"),
-(20000111,"Pedro","Quiñonez","154372605","Buena vista 1192");
+(20000111,"Pedro","Quiñonez","154372605","Buena vista 1192"),
+(34567657,"Michael","Sans","155678767","Colon 334"),
+(38989657,"Anastacia","Alegre","146547878","Alvear 339");
 ########################################################
 
 #insert tabla perro
@@ -71,8 +76,9 @@ values
 ("Lorenzo","2011-01-01","macho","56334955"),
 ("Toby","2022-03-05","macho","35777899"),
 ("Toto","2021-07-18","macho","36560890"),
-("Khali","2015-05-29","hembra",20000111);
-########################################################
+("Khali","2015-05-29","hembra",20000111),
+("Firulais","2010-03-18","macho",34567657),
+("Frida","2016-04-14","Hembra",38989657);
 
 #insert tabla historial
 INSERT INTO historial (Fecha,PerroID,Descripcion,Monto)
@@ -88,4 +94,16 @@ values
 ("2022-07-09",9,"Limpieza dental",1500),
 ("2022-04-02",10,"Corte de pelo y lavado",5000),
 ("2022-06-06",11,"Servicio Completo",7000),
-("2020-02-25",12,"Servicio Completo",7000);
+("2020-02-25",12,"Servicio Completo",7000),
+("2022-03-18",13,"corte de pelo y lavado",5000),
+("2018-05-11",14,"lavado",2500);
+
+#Ejercicio 8 -insertar un nuevo registro en la tabla historial de un perro cuyo ID Perro es igual a 10
+INSERT INTO  historial(Fecha,PerroID,descripcion,Monto)
+values("2020-03-02",10,"Corte de pelo y lavado",5000);
+select *From historial;
+
+
+
+
+
