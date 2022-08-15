@@ -89,3 +89,10 @@ values
 ("2022-04-02",10,"Corte de pelo y lavado",5000),
 ("2022-06-06",11,"Servicio Completo",7000),
 ("2020-02-25",12,"Servicio Completo",7000);
+
+
+#Ejercicio 7- Obtener los ingresos percibidos en Julio del 2022
+
+SELECT SUM(monto)
+FROM historial
+where Fecha between  '2022-07-01' AND '2022-07-31'
