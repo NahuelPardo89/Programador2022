@@ -86,3 +86,8 @@ values
 ("2022-07-09",9,"Limpieza dental",1500),
 ("2022-04-02",10,"Corte de pelo y lavado",5000),
 ("2022-06-06",11, "Servicio Completo",7000);
+
+
+SELECT SUM(monto)
+FROM historial
+where Fecha between  '2022-07-01' AND '2022-07-31'
